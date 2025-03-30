@@ -1,0 +1,76 @@
+/* Styling for the body to set background, font, and center content */
+body {
+    background-color: lightpink; /* Light pink background for the page */
+    font-family: Arial, sans-serif; /* Set a clean, sans-serif font */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Center alignment for headings */
+h1, h2 {
+    text-align: center;
+}
+
+/* Styling for the main heading */
+h1 {
+    font-size: 48px; /* Large font size for emphasis */
+    color: darkolivegreen; /* Dark olive green color */
+}
+
+/* Styling for the subheading */
+h2 {
+    font-size: 32px; /* Slightly smaller font size */
+    color: rgb(73, 161, 79); /* Light green color */
+}
+
+/* Styling for the smaller heading */
+h3 {
+    font-size: 24px; /* Smaller than h2 */
+    color: darkolivegreen; /* Match the card's theme */
+    text-align: center; /* Center the heading */
+    margin-top: 20px; /* Add spacing above the heading */
+}
+
+/* Styling for the paragraph */
+p {
+    font-size: 18px; /* Readable font size */
+    line-height: 1.6; /* Add spacing between lines */
+    text-align: center; /* Center the text */
+}
+
+/* Styling for the card container */
+.card {
+    background-color: white; /* White background for the card */
+    border: 2px solid darkolivegreen; /* Border with dark olive green color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Space inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center all text inside the card */
+    max-width: 400px; /* Limit the card width */
+    width: 100%; /* Make the card responsive */
+}
+
+/* Styling for the profile image */
+.profile-image {
+    width: 120px; /* Adjust width to fit nicely */
+    height: 120px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    display: block; /* Center the image */
+    margin: 0 auto 20px; /* Center and add spacing below */
+    object-fit: cover; /* Ensure the image scales properly */
+}
+
+/* Styling for the list */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    margin: 5px 0; /* Add spacing between list items */
+}
+
+
