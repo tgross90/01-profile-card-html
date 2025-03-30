@@ -70,7 +70,13 @@ ul {
 }
 
 ul li {
-    margin: 5px 0; /* Add spacing between list items */
+    margin: 3px 0; /* Reduce spacing between list items */
+}
+
+ul li a {
+    display: inline-block; /* Treat links as block elements for spacing */
+    padding: 3px 0; /* Reduce vertical padding for links */
+    text-decoration: none; /* Remove underline for cleaner look */
 }
 
 
